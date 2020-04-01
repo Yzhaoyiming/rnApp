@@ -15,7 +15,7 @@ export default class SwiperPage extends Component {
         <View style={styles.slide1}>
           <Image
             style={styles.img}
-            source={require('../assets/re.png')}
+            source={require('../assets/re.jpg')}
           />
           <TouchableOpacity style={styles.start}  onPress={this.start}>
             <Text style={{color: '#fff'}}>开始体验</Text>
@@ -24,13 +24,13 @@ export default class SwiperPage extends Component {
         <View style={styles.slide1}>
           <Image
             style={styles.img}
-            source={require('../assets/car.png')}
+            source={require('../assets/slide.jpg')}
           />
         </View>
         <View style={styles.slide1} >
           <Image
             style={styles.img}
-            source={require('../assets/slide.png')}
+            source={require('../assets/slide.jpg')}
           />
         </View>
       </Swiper>
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     height: 40,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'green',
+    backgroundColor: '#ccc',
     borderRadius: 20,
   },
 });
